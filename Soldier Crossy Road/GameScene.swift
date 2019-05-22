@@ -94,8 +94,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate  {
         //Labels de win y gameover
         jugadorMuertoLabel.text = "Game Over"
         jugadorMuertoLabel.fontColor = SKColor.white
-        jugadorMuertoLabel.fontSize = 50
         jugadorMuertoLabel.zPosition = 100
+        jugadorMuertoLabel.fontSize = 50
         jugadorMuertoLabel.position = CGPoint(x: 0,
                                               y: 0)
         jugadorMuertoLabel.isHidden = true
